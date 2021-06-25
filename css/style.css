@@ -1,0 +1,811 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.aNav{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.aNav:hover{
+    color: black;
+    background-color: rgba(211, 211, 211, 0.11);
+    border-radius: 10%;
+}
+
+.navbar{
+    position: relative;
+}
+
+.brandLogo{
+    position: absolute;
+    left: 5%;
+}
+
+nav{
+    margin-top: 2%;
+}
+.nav-item{
+    margin: 0 20px;
+}
+
+.collapse {
+    margin-left: 32%;
+}
+
+.dropdown-item{
+    font-size: 17px;
+}
+
+.nav__call{
+    text-decoration: none!important;
+    color: white;
+    background-color: darkblue;
+    display: block;
+    width: 100%;
+    padding: 7px 25px;
+    border-radius: 40px!important;
+    transition: .5s!important;
+}
+
+.nav__call__f{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.nav__call:hover{
+    transition: .5s!important;
+    text-decoration: none!important;
+    color: white;
+    box-shadow: 0px 10px 50px 0px darkblue!important;
+    background-color: #ff4081;
+}
+
+.navbar-toggler{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.navbar .toggle{
+    width: 40px;
+    height: 40px;
+    background: url(../imgs/menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.483);
+}
+
+.navbar .toggle.active{
+    width: 40px;
+    height: 40px;
+    background: url(../imgs/close.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.483);
+}
+
+.welcome{
+    margin: 0;
+    margin-top: 80px!important;
+}
+
+.welcome__bigtext{
+    font-weight: 700!important;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.welcome__smalltext{
+    margin-left: 5%;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.welcome__button{
+    margin-left: 5%;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: darkblue;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 10px 50px 0px gray  !important;
+}
+
+.welcome__link{
+    text-decoration: none!important;
+    color: white;
+    background-color: darkblue;
+    display: block;
+    width: 18%;
+    padding: 10px 25px;
+    border-radius: 40px!important;
+    transition: .5s!important;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+
+.welcome__link:hover{
+    transition: .5s!important;
+    text-decoration: none!important;
+    color: white;
+    box-shadow: 0px 10px 50px 0px darkblue!important;
+    background-color: #ff4081;
+}
+
+#marketingonline{
+    margin-top: 5%;
+    width: 100%;
+}
+
+#marketingonline .col-lg-3{
+    text-align: center;
+}
+
+#marketingonline .col-lg-3 a{
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+#marketingonline .row__1{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#marketingonline .row__2{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#marketingonline .col-lg-3 .item__shadow{
+    box-shadow: 0px 8px 15px 2px lightgray;
+    padding: 40px;
+    transition: .5s;
+}
+
+#marketingonline .col-lg-3:hover .item__shadow{
+    box-shadow: 0px 10px 25px 5px gray!important;
+}
+
+#marketingonline .fa-chart-line{
+    color:  rgba(255, 0, 0, 0.598);
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.081);
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 25px;
+    transition: .5s;
+}
+
+#marketingonline .col-lg-3:hover .fa-chart-line{
+    background-color: rgba(255, 0, 0, 0.598);
+    color: white;
+}
+
+
+#marketingonline .fa-user-friends{
+    color:  rgba(128, 0, 128, 0.598);
+    text-align: center;
+    background-color: rgba(128, 0, 128, 0.17);
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 25px;
+    transition: .5s;
+}
+
+#marketingonline .col-lg-3:hover .fa-user-friends{
+    background-color: rgba(128, 0, 128, 0.598);
+    color: white;
+}
+
+
+#marketingonline .fa-ad{
+    color: #ffc107ad;
+    text-align: center;
+    background-color: #ffc10736;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 25px;
+    transition: .5s;
+}
+
+#marketingonline .col-lg-3:hover .fa-ad{
+    background-color: #ffc107ad;
+    color: white;
+}
+
+#marketingonline .fa-draw-polygon{
+    color: orange;
+    text-align: center;
+    background-color: rgba(255, 166, 0, 0.197);
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 25px;
+    transition: .5s;
+}
+
+#marketingonline .col-lg-3:hover .fa-draw-polygon{
+    background-color: orange;
+    color: white;
+}
+
+#marketingonline .fa-google{
+    color: green;
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.272);
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 25px;
+    transition: .5s;
+}
+
+#marketingonline .col-lg-3:hover .fa-google{
+    background-color: green;
+    color: white;
+}
+
+
+#marketingonline .fa-facebook-square{
+    color:  rgba(0, 0, 255, 0.7);
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.129);
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 25px;
+    transition: .5s;
+}
+
+#marketingonline .col-lg-3:hover .fa-facebook-square{
+    background-color: rgba(0, 0, 255, 0.7);
+    color: white;
+}
+
+
+#marketingonline .fa-youtube{
+    color:  red;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.265);
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 25px;
+    transition: .5s;
+}
+
+#marketingonline .col-lg-3:hover .fa-youtube{
+    background-color: red;
+    color: white;
+}
+
+
+#marketingonline .fa-music{
+    color:  black;
+    text-align: center;
+    background-color: black;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 25px;
+    transition: .5s;
+    color: white;
+}
+
+#marketingonline .col-lg-3:hover .fa-music{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+/*Ly do*/
+#reason{
+    background-color: darkblue;
+}
+
+#reason .card{
+    border-radius: 5%;
+}
+/**/
+
+#contact{
+    padding-top: 10%;
+}
+
+#contact .contact__link{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+    padding: 15px 35px;
+    border-radius: 50px;
+    box-shadow: 0 15px 25px 5px lightgray;
+    transition: .5s;
+}
+
+#contact .contact__link:hover{
+    color: darkblue;
+    border: 2px solid darkblue;
+    background-color: white;
+    box-shadow: 0 15px 25px 15px gray;
+}
+
+footer{
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(9, 1, 99);
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+footer .footer__row{
+    padding: 50px 30px 30px 20px;
+}
+
+footer li{
+    list-style: none;
+}
+
+.footer__row__intrustion{
+    color: rgb(193, 192, 192);
+}
+
+.footer__row__service li{
+    padding: 7px 0;
+}
+
+.footer__row__service li a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.footer__row__service li:hover a{
+    color: darkgoldenrod;
+}
+
+.footer__row__service i{
+    color: darkgoldenrod;
+}
+
+footer iframe{
+    width: 100%;
+    height: 80%;
+}
+
+
+.backtotop{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+  }
+  
+  .backtotop a{
+    opacity: 0;
+  }
+  
+  .backtotop .cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* .backtotop .cd-top--fade-out { 
+    opacity: .5;
+  } */
+  
+  
+  .backtotop a i{
+    color: rgb(0 0 0 / 55%);
+    font-size: 40px;
+    /* border: 1px solid rgba(0, 0, 0, 0.306); */
+    background-color: #d3d3d38f;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+  }
+
+  @media only screen and (min-width: 279.99px) {
+    .header__nav{
+        display: none;
+    }
+    .menu{
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .menu.active{
+        left: 0;
+    }
+
+    .brandLogo{
+        width: 200px;
+        padding-top: 50px;
+    }
+
+    .collapse {
+        margin-left: 150px;
+    }
+
+    .aNav{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .nav-item{
+        margin: 0 2px;
+    }
+
+    .welcome__link{
+        width: 130px;
+    }
+
+    .welcome__img img{
+        display: none;
+        /* width: 450px!important;
+        margin-left: 40px; */
+    }
+
+    .map{
+        display: none;
+    }
+
+    .takeyour__img{
+        display: none;
+    }
+    
+    #contact h3{
+        font-size: 30px;
+    }
+
+    #contact .contact__link{
+        font-size: 25px;
+    }
+
+    #marketingonline h3{
+        font-size: 25px;
+    }
+
+    #marketingonline h1{
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    #marketingonline .col-lg-3{
+        margin-top: 20px;
+    }
+
+    #reason .col-md-4{
+        margin-top: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 499.99px) {
+    .header__nav{
+        display: none;
+    }
+    .menu{
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    .menu.active{
+        left: 0;
+    }
+
+    .brandLogo{
+        width: 200px;
+        padding-top: 50px;
+    }
+
+    .collapse {
+        margin-left: 150px;
+    }
+
+    .aNav{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .nav-item{
+        margin: 0 2px;
+    }
+
+    .welcome__link{
+        width: 130px;
+    }
+
+    .welcome__img img{
+        display: block;
+        width: 450px!important;
+        margin-left: 40px;
+    }
+
+    .map{
+        display: none;
+    }
+
+    .takeyour__img{
+        display: none;
+    }
+    
+    #contact h3{
+        font-size: 30px;
+    }
+
+    #contact .contact__link{
+        font-size: 25px;
+    }
+
+    #marketingonline h3{
+        font-size: 25px;
+    }
+
+    #marketingonline h1{
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    #marketingonline .col-lg-3{
+        margin-top: 20px;
+    }
+
+    #reason .col-md-4{
+        margin-top: 20px;
+    }
+  }
+
+
+  @media only screen and (min-width: 759.99px) {
+    
+    .header__nav{
+        display: inline;
+        margin: 0!important;
+        width: 100%;
+    }
+
+    .header__nav li{
+        display: inline;
+    }
+
+    .header__nav li a{
+        display: inline;
+    }
+
+    .brandLogo{
+        width: 200px;
+        padding-top: 0;
+
+    }
+
+    .collapse {
+        margin-left: 150px;
+    }
+
+    .aNav{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .nav-item{
+        margin: 0 2px;
+    }
+
+    .welcome__link{
+        width: 130px;
+    }
+
+    .welcome__img img{
+        display: block;
+        width: 530px!important;
+        margin-left: 70px;
+    }
+
+    .map{
+        display: none;
+    }
+
+    .takeyour__img{
+        display: none;
+    }
+    
+    #contact h3{
+        font-size: 30px;
+    }
+
+    #contact .contact__link{
+        font-size: 25px;
+    }
+
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .header__nav{
+        display: inline;
+        margin: 0!important;
+        width: 100%;
+    }
+
+    .header__nav li{
+        display: inline;
+    }
+    
+    .brandLogo{
+        width: 300px;
+        padding-top: 15px!important;
+
+    }
+
+    .collapse {
+        margin-left: 300px;
+    }
+
+    .nav-item{
+        margin: 0 20px;
+    }
+
+    .aNav{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .welcome__link{
+        width: 130px;
+    }
+
+    .welcome__img img{
+        display: block;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .map{
+        display: inline;
+    }
+
+    .takeyour__img{
+        display: inline;
+    }
+
+    #contact h3{
+        font-size: 30px;
+    }
+
+    #contact .contact__link{
+        font-size: 25px;
+    }
+
+  }
+  
+  @media only screen and (min-width: 1440px) {
+    .header__nav{
+        display: inline;
+        margin: 0!important;
+        width: 100%;
+    }
+
+    .header__nav li{
+        display: inline;
+    }
+    
+    .brandLogo{
+        padding-top: 0;
+        width: 400px!important;
+    }
+
+    .collapse {
+        margin-left: 500px!important;
+    }
+    .nav-item{
+        margin: 0 20px;
+    }
+
+    .aNav{
+        text-decoration: none;
+        color: black;
+        font-size: 17px!important;
+        font-weight: 500;
+    }
+
+    .welcome__link{
+        width: 130px;
+    }
+
+    .welcome__img{
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 0;
+    }
+
+    .map{
+        display: inline;
+    }
+
+    .takeyour__img{
+        display: inline;
+    }
+    #contact h3{
+        font-size: 40px;
+    }
+
+    #contact .contact__link{
+        font-size: 35px;
+    }
+  }
+
+
+

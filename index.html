@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./imgs/SGM-removebg-preview.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/hotline.css">
+    <title>
+      Công ty Support Ground Media -Chuyên cung cấp các dịch vụ về marketing
+      online
+    </title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md" style="color: black">
+        <a class="navbar-brand brandLogo" href="#">
+          <img style="width: 60%" src="./imgs/SGM-removebg-preview.png" alt />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon toggle" onclick="toggleMenu()"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0  header__nav">
+            <li class="nav-item active">
+              <a class="nav-link aNav" href="#">
+                Giới Thiệu <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle aNav"
+                href="#"
+                id="dropdownId"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Giải Pháp Dịch Vụ
+              </a>
+              <div class="dropdown-menu bg-light" aria-labelledby="dropdownId">
+                <a class="dropdown-item aNav" href="#">
+                  Hỗ Trợ Tư Vấn Marketing Online
+                </a>
+                <a class="dropdown-item aNav" href="#"> SEO Web - Backlink </a>
+                <a class="dropdown-item aNav" href="#"> Quảng Cáo Facebook </a>
+                <a class="dropdown-item aNav" href="#"> Quảng Cáo Google </a>
+                <a class="dropdown-item aNav" href="#"> Quảng Cáo Tiktok </a>
+                <a class="dropdown-item aNav" href="#"> Quảng Cáo Youtube </a>
+                <a class="dropdown-item aNav" href="#"> Native Ads </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle aNav"
+                href="#"
+                id="dropdownId"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Thiết Kế
+              </a>
+              <div class="dropdown-menu bg-light" aria-labelledby="dropdownId">
+                <a class="dropdown-item aNav" href="#"> Thiết kế Website </a>
+                <a class="dropdown-item aNav" href="#">
+                  Thiết kế Logo - Brand
+                </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle aNav"
+                href="#"
+                id="dropdownId"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Đào Tạo
+              </a>
+              <div
+                class="dropdown-menu bg-light aNav"
+                aria-labelledby="dropdownId"
+              >
+                <a class="dropdown-item aNav" href="#">
+                  Đào Tạo Quảng Cáo Facebook Ads
+                </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle aNav"
+                href="#"
+                id="dropdownId"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Tin Tức
+              </a>
+              <div
+                class="dropdown-menu bg-light aNav"
+                aria-labelledby="dropdownId"
+              >
+                <a class="dropdown-item aNav" href="#"> Kinh Nghiệm </a>
+                <a class="dropdown-item aNav" href="#"> Chia Sẻ </a>
+              </div>
+            </li>
+            <li class="nav-item nav__call__f">
+              <a class="nav__call aNav text-white" href="tel:0966264245"
+                ><i class="fa fa-phone"></i> Gọi ngay</a
+              >
+            </li>
+          </ul>
+
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 menu">
+            <li class="nav-item active">
+              <a class="nav-link aNav" href="#">
+                Giới Thiệu <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle aNav"
+                href="#"
+                id="dropdownId"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Giải Pháp Dịch Vụ
+              </a>
+              <div class="dropdown-menu bg-light" aria-labelledby="dropdownId">
+                <a class="dropdown-item aNav" href="#">
+                  Hỗ Trợ Tư Vấn Marketing Online
+                </a>
+                <a class="dropdown-item aNav" href="#"> SEO Web - Backlink </a>
+                <a class="dropdown-item aNav" href="#"> Quảng Cáo Facebook </a>
+                <a class="dropdown-item aNav" href="#"> Quảng Cáo Google </a>
+                <a class="dropdown-item aNav" href="#"> Quảng Cáo Tiktok </a>
+                <a class="dropdown-item aNav" href="#"> Quảng Cáo Youtube </a>
+                <a class="dropdown-item aNav" href="#"> Native Ads </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle aNav"
+                href="#"
+                id="dropdownId"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Thiết Kế
+              </a>
+              <div class="dropdown-menu bg-light" aria-labelledby="dropdownId">
+                <a class="dropdown-item aNav" href="#"> Thiết kế Website </a>
+                <a class="dropdown-item aNav" href="#">
+                  Thiết kế Logo - Brand
+                </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle aNav"
+                href="#"
+                id="dropdownId"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Đào Tạo
+              </a>
+              <div
+                class="dropdown-menu bg-light aNav"
+                aria-labelledby="dropdownId"
+              >
+                <a class="dropdown-item aNav" href="#">
+                  Đào Tạo Quảng Cáo Facebook Ads
+                </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle aNav"
+                href="#"
+                id="dropdownId"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Tin Tức
+              </a>
+              <div
+                class="dropdown-menu bg-light aNav"
+                aria-labelledby="dropdownId"
+              >
+                <a class="dropdown-item aNav" href="#"> Kinh Nghiệm </a>
+                <a class="dropdown-item aNav" href="#"> Chia Sẻ </a>
+              </div>
+            </li>
+            <li class="nav-item nav__call__f">
+              <a class="nav__call aNav text-white" href="tel:0966264245"
+                ><i class="fa fa-phone"></i> Gọi ngay</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="welcome">
+      <div style="width: 100%" class="row mt-5 welcome">
+        <div class="col-12 col-lg-6 ">
+          <h3 style="margin-top: 80px; margin-left: 40px">Welcome,</h3>
+          <h1 class="display-4 welcome__bigtext">
+            Marketing Is The Key Of Business Success
+          </h1>
+          <p class="welcome__smalltext">
+            But I must explain to you how all this mistaken idea of denouncing
+            pleasure and praising pain was born and I will give you a complete.
+          </p>
+          <a class="welcome__link" href="#reason">Xem Thêm</a>
+        </div>
+        <div class="col-12 col-lg-6 welcome__img">
+          <img src="./imgs/welcome_background.png" alt />
+        </div>
+      </div>
+    </section>
+    <div class="text-center">
+      <img
+        src="https://tigobiz.com/wp-content/uploads/2020/06/Group-4.png"
+        alt=""
+      />
+    </div>
+    <section id="marketingonline" class="text-center container">
+      <h3>What We Can Do For You</h3>
+      <br />
+      <h1 class="display-5" style="font-weight: 700">
+        Các Dịch Vụ Marketing Online
+      </h1>
+      <div class="row row__1">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="item__shadow">
+            <i class="fa fa-chart-line"></i>
+            <a href="">Marketing Online</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="item__shadow">
+            <i class="fa fa-user-friends"></i>
+            <a href="">SEOWeb Backlink</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="item__shadow">
+            <i class="fa fa-ad"></i>
+            <a href="">Native Ads</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="item__shadow">
+            <i class="fa fa-draw-polygon"></i>
+            <a href="">Thiết kế Website</a>
+          </div>
+        </div>
+      </div>
+      <div class="row row__2">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="item__shadow">
+            <i class="fab fa-google"></i>
+            <a href="">QC Google</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="item__shadow">
+            <i class="fab fa-facebook-square"></i>
+            <a href="">QC Facebook</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="item__shadow">
+            <i class="fab fa-youtube"></i>
+            <a href="">QC Youtube</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="item__shadow">
+            <i class="fa fa-music"></i>
+            <a href="">QC Tiktok</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div>
+      <img
+        style="transform: rotate(45deg)"
+        src="https://tigobiz.com/wp-content/uploads/2020/06/Group-4.png"
+        alt=""
+      />
+    </div>
+    <section id="reason" class="text-center">
+      <h1
+        style="font-weight: 700; padding-top: 50px"
+        class="display-5 text-white"
+      >
+        Lý Do Nên Đồng Hành Cùng SGM
+      </h1>
+      <div style="padding: 70px 0" class="container">
+        <div class="row text-center">
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img
+                style="
+                  width: 50%;
+                  margin: auto;
+                  padding-top: 50px;
+                  padding-bottom: 10px;
+                "
+                class="card-img-top"
+                src="https://tigobiz.com/wp-content/uploads/2020/11/switch.svg"
+                alt=""
+              />
+              <div class="card-body">
+                <h4 class="card-title">Chuyên Gia Hàng Đầu</h4>
+                <p class="card-text" style="padding-bottom: 5px">
+                  Những chuyên gia đã trải nghiệm, thực chiến sẽ truyền lại cho
+                  bạn cảm hứng và cách thức vận dụng kiến thức thực tế như thế
+                  nào
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img
+                style="
+                  width: 50%;
+                  margin: auto;
+                  padding-top: 50px;
+                  padding-bottom: 10px;
+                "
+                class="card-img-top w-50"
+                src="https://tigobiz.com/wp-content/uploads/2020/11/fingerprints.svg"
+                alt=""
+              />
+              <div class="card-body">
+                <h4 class="card-title">Giải Pháp Tinh Gọn</h4>
+                <p class="card-text" style="padding-bottom: 25px">
+                  Không chỉ là Dịch vụ, chúng tôi đồng hành phát triển cùng
+                  Doanh nghiệp bạn với những giải pháp tinh gọn, chuyên nghiệp.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <img
+                style="width: 50%; margin: auto; padding-top: 50px"
+                class="card-img-top w-50"
+                src="https://tigobiz.com/wp-content/uploads/2020/11/touch.svg"
+                alt=""
+              />
+              <div class="card-body">
+                <h4 class="card-title">Chuyên Nghiệp</h4>
+                <p class="card-text">
+                  Với tỷ lệ hài lòng của khách hàng đến 98% trong 500+ dự án mỗi
+                  Năm. Chúng tôi tự tin với năng lực của mình để giúp Doanh
+                  nghiệp của bạn Phát triển
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="takeyour">
+      <div class="row w-100">
+        <div class="col-12 col-lg-6 text-center" style="padding-top: 3%">
+          <h3 style="margin-top: 80px">Marketing</h3>
+          <!-- <h1 class="display-4 welcome__bigtext">
+            Take Your Business Marketing To The Next
+          </h1> -->
+          <p class="welcome__smalltext">
+            Dẫn đầu trong thời đại công nghệ 4.0 với tốc độ phát triển cực kỳ
+            nhanh chóng thông qua các công cụ Marketing Online như Google,
+            Facebook... Sẽ giúp doanh nghiệp tiếp cận lượng lớn khách hàng một
+            cách nhanh chóng mang lại hiệu quả cao cho doanh nghiệp.
+          </p>
+          <!-- <a class="welcome__link text-center" href="tel:0966264245">Liên Hệ</a> -->
+        </div>
+
+        <div class="col-6 takeyour__img">
+          <img
+            style="width: 100%"
+            src="./imgs/digital-marketing-4297723_1280.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="text-center w-100">
+      <h3 class="display-4" style="font-weight: 700; margin-bottom: 5%">
+        Gọi Ngay SGM Để Được Tư Vấn Trực tiếp!
+      </h3>
+
+      <a class="contact__link" href="tel:0966264245">Gọi Ngay !!!</a>
+    </section>
+
+    <footer>
+      <div class="row footer__row">
+        <div class="col-12 col-md-4 col-lg-3 footer__row__intrustion">
+          <h4 class="text-white">Giới Thiệu</h4>
+          <p>
+            Support Ground Media là công ty chuyên cung cấp dịch vụ Marketing
+            Online. Chuyên nghiệp, nhanh gọn hiệu quả là tiêu chí mà chúng tôi
+            đặt lên hàng đầu. Là nền tảng tốt cho thời kì 4.0 hiện nay.
+          </p>
+          <ul>
+            <li>
+              <div class="row">
+                <div class="col-1"><i class="fa fa-phone"></i></div>
+                <div class="col-10">0966.264.245</div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-1"><i class="fa fa-envelope"></i></div>
+                <div class="col-10">spgrownmedia@gmail.com</div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-1"><i class="fa fa-map-marker"></i></div>
+                <div class="col-10">
+                  394 Lê Hoàn - P. Ba Đình - TP. Thanh Hoá
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3 footer__row__service">
+          <h4>Dịch Vụ</h4>
+          <ul>
+            <li>
+              <a href="">
+                <div class="row">
+                  <div class="col-1"><i class="fa fa-check"></i></div>
+                  <div class="col-10">Tư Vấn Marketing Online</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="row">
+                  <div class="col-1"><i class="fa fa-check"></i></div>
+                  <div class="col-10">SEOWeb - Backlink</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="row">
+                  <div class="col-1"><i class="fa fa-check"></i></div>
+                  <div class="col-10">Quảng Cáo Facebook</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="row">
+                  <div class="col-1"><i class="fa fa-check"></i></div>
+                  <div class="col-10">Quảng Cáo Google</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="row">
+                  <div class="col-1"><i class="fa fa-check"></i></div>
+                  <div class="col-10">Quảng Cáo TikTok</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="row">
+                  <div class="col-1"><i class="fa fa-check"></i></div>
+                  <div class="col-10">Quảng Cáo Youtube</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="row">
+                  <div class="col-1"><i class="fa fa-check"></i></div>
+                  <div class="col-10">Native Ads</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3 footer__row__service">
+          <h4>Thiết kế</h4>
+          <ul>
+            <li>
+              <a href="">
+                <div class="row">
+                  <div class="col-1"><i class="fa fa-check"></i></div>
+                  <div class="col-10">Thiết Kế Website</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="row">
+                  <div class="col-1"><i class="fa fa-check"></i></div>
+                  <div class="col-10">Thiết kế Logo</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <h4>Đào Tạo</h4>
+          <ul>
+            <li>
+              <a href="">
+                <div class="row">
+                  <div class="col-1"><i class="fa fa-graduation-cap"></i></i></div>
+                  <div class="col-10">Đào Tạo Quảng Cáo<br/> Facebook Ads</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <h4>Tin Tức</h4>
+          <ul>
+            <li>
+              <a href="">
+                <div class="row">
+                  <div class="col-1"><i class="fa fa-newspaper"></i></i></div>
+                  <div class="col-10">Kinh Nghiệm</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <div class="row">
+                  <div class="col-1"><i class="fa fa-newspaper"></i></i></div>
+                  <div class="col-10">Chia Sẻ</div>
+                </div>
+              </a>
+            </li>
+            </ul>
+        </div>
+
+        <div class="col-3 map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.9722265589767!2d105.77537851474169!3d19.798774886677332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3136f8061792eae1%3A0xd1a418791c7135f7!2zMzk0IMSQxrDhu51uZyBMw6ogSG_DoG4sIFAuIExhbSBTxqFuLCBUaMOgbmggcGjhu5EgVGhhbmggSMOzYSwgVGhhbmggSG_DoSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1624434730496!5m2!1svi!2s" 
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="hotline-phone-ring-wrap">
+        <div class="hotline-phone-ring">
+          <div class="hotline-phone-ring-circle"></div>
+          <div class="hotline-phone-ring-circle-fill"></div>
+          <div class="hotline-phone-ring-img-circle">
+          <a href="tel:0987654321" class="pps-btn-img">
+            <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+          </a>
+          </div>
+        </div>
+        <div class="hotline-bar">
+          <a href="tel:0966264245">
+            <span class="text-hotline">0966.264.245</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <div class="backtotop">
+      <a href="#" class="cd-top text-replace js-cd-top">
+        <i class="fa fa-arrow-up"></i></a>
+    </div>
+
+
+    <script src="./libs/backtotop/js/util.js"></script>
+  <script src="./libs/backtotop/js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function toggleMenu() {
+        var menuToggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu');
+        menuToggle.classList.toggle('active')
+        menu.classList.toggle('active')
+      }
+
+      function chooseMenu() {
+        var menuToggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu');
+        menuToggle.classList.remove('active');
+        menu.classList.remove('active');
+      }
+    </script>
+  </body>
+</html>
