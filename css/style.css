@@ -228,7 +228,7 @@ nav{
 }
 
 
-#marketingonline .fa-ad{
+#marketingonline .fa-audio-description{
     color: #ffc107ad;
     text-align: center;
     background-color: #ffc10736;
@@ -241,7 +241,7 @@ nav{
     transition: .5s;
 }
 
-#marketingonline .col-lg-3:hover .fa-ad{
+#marketingonline .col-lg-3:hover .fa-audio-description{
     background-color: #ffc107ad;
     color: white;
 }

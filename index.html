@@ -30,6 +30,8 @@
       Công ty Support Ground Media -Chuyên cung cấp các dịch vụ về marketing
       online
     </title>
+    <link rel="stylesheet" href="./libs/wow-lib/WOW/css/libs/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   </head>
   <body>
     <header>
@@ -237,7 +239,7 @@
         </div>
       </nav>
     </header>
-    <section id="welcome">
+    <section id="welcome" class="animate__animated wow animate__fadeInUp" data-wow-duration="2s">
       <div style="width: 100%" class="row mt-5 welcome">
         <div class="col-12 col-lg-6 ">
           <h3 style="margin-top: 80px; margin-left: 40px">Welcome,</h3>
@@ -250,7 +252,7 @@
           </p>
           <a class="welcome__link" href="#reason">Xem Thêm</a>
         </div>
-        <div class="col-12 col-lg-6 welcome__img">
+        <div class="col-12 col-lg-6 welcome__img animate__animated wow animate__fadeInRight" data-wow-duration="2s">
           <img src="./imgs/welcome_background.png" alt />
         </div>
       </div>
@@ -258,17 +260,17 @@
     <div class="text-center">
       <img
         src="https://tigobiz.com/wp-content/uploads/2020/06/Group-4.png"
-        alt=""
+        alt="..."
       />
     </div>
-    <section id="marketingonline" class="text-center container">
+    <section id="marketingonline" class="text-center container animate__animated  wow animate__fadeInUp" data-wow-duration="2s">
       <h3>What We Can Do For You</h3>
       <br />
       <h1 class="display-5" style="font-weight: 700">
         Các Dịch Vụ Marketing Online
       </h1>
-      <div class="row row__1">
-        <div class="col-12 col-md-6 col-lg-3">
+      <div class="row row__1 animate__animated wow animate__fadeInUp" data-wow-duration="2s">
+        <div class="col-12 col-md-6 col-lg-3 animate__animated">
           <div class="item__shadow">
             <i class="fa fa-chart-line"></i>
             <a href="">Marketing Online</a>
@@ -282,7 +284,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-3">
           <div class="item__shadow">
-            <i class="fa fa-ad"></i>
+            <i class="fa fa-audio-description"></i>
             <a href="">Native Ads</a>
           </div>
         </div>
@@ -293,7 +295,7 @@
           </div>
         </div>
       </div>
-      <div class="row row__2">
+      <div class="row row__2  animate__animated wow animate__fadeInUp" data-wow-duration="2s">
         <div class="col-12 col-md-6 col-lg-3">
           <div class="item__shadow">
             <i class="fab fa-google"></i>
@@ -327,7 +329,7 @@
         alt=""
       />
     </div>
-    <section id="reason" class="text-center">
+    <section id="reason" class="text-center animate__animated wow animate__fadeInUp" data-wow-duration="2s">
       <h1
         style="font-weight: 700; padding-top: 50px"
         class="display-5 text-white"
@@ -336,7 +338,7 @@
       </h1>
       <div style="padding: 70px 0" class="container">
         <div class="row text-center">
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 animate__animated wow animate__fadeInUp" data-wow-duration="3s" data-wow-delay="1s">
             <div class="card">
               <img
                 style="
@@ -359,7 +361,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 animate__animated wow animate__fadeInUp" data-wow-duration="3s" data-wow-delay="2s">
             <div class="card">
               <img
                 style="
@@ -381,7 +383,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 animate__animated wow animate__fadeInUp" data-wow-duration="3s" data-wow-delay="3s">
             <div class="card">
               <img
                 style="width: 50%; margin: auto; padding-top: 50px"
@@ -403,7 +405,7 @@
       </div>
     </section>
 
-    <section id="takeyour">
+    <section id="takeyour" class="animate__animated wow animate__fadeInUp" data-wow-delay="2s" data-wow-duration="2s">
       <div class="row w-100">
         <div class="col-12 col-lg-6 text-center" style="padding-top: 3%">
           <h3 style="margin-top: 80px">Marketing</h3>
@@ -429,7 +431,7 @@
       </div>
     </section>
 
-    <section id="contact" class="text-center w-100">
+    <section id="contact" class="text-center w-100 animate__animated wow animate__zoomInDown" data-wow-delay="2s">
       <h3 class="display-4" style="font-weight: 700; margin-bottom: 5%">
         Gọi Ngay SGM Để Được Tư Vấn Trực tiếp!
       </h3>
@@ -437,7 +439,7 @@
       <a class="contact__link" href="tel:0966264245">Gọi Ngay !!!</a>
     </section>
 
-    <footer>
+    <footer class="animate__animated wow animate__fadeInUp" data-wow-delay="2s">
       <div class="row footer__row">
         <div class="col-12 col-md-4 col-lg-3 footer__row__intrustion">
           <h4 class="text-white">Giới Thiệu</h4>
@@ -612,7 +614,10 @@
         <i class="fa fa-arrow-up"></i></a>
     </div>
 
-
+    <script src="./libs/wow-lib/WOW/dist/wow.min.js"></script>
+    <script>
+      new WOW().init();
+      </script>
     <script src="./libs/backtotop/js/util.js"></script>
   <script src="./libs/backtotop/js/main.js"></script>
     <script
@@ -641,5 +646,6 @@
         menu.classList.remove('active');
       }
     </script>
+  
   </body>
 </html>
