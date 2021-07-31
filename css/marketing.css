@@ -15,11 +15,10 @@
     border-radius: 15px;
     box-shadow: 0 15px 25px 5px lightgray;
     cursor: pointer;
-    transition: .5s;
 }
 
 .marketings .marketing__item:hover{
-    transform: translateY(30px);
+    transform: translateY(30px)!important;
 }
 
 .marketing__item i{
