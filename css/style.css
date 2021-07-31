@@ -353,7 +353,7 @@ nav{
 /**/
 
 #contact{
-    padding-top: 10%;
+    padding-top: 3%;
 }
 
 #contact .contact__link{
@@ -449,6 +449,12 @@ footer iframe{
     line-height: 50px;
     text-align: center;
     border-radius: 50px;
+  }
+
+
+
+  #uudaimuadich h3{
+    font-weight: 700;
   }
 
   @media only screen and (min-width: 279.99px) {

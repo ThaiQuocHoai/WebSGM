@@ -1,0 +1,16 @@
+#seoweb p{
+    font-size: 20px;
+    line-height: 2;
+}
+
+#seoweb .list__number__seo{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#seoweb .list__number__seo li{
+    list-style: decimal;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 700;
+}

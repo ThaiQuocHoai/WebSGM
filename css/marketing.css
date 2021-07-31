@@ -1,0 +1,54 @@
+#marketingonline p{
+    font-size: 20px;
+    line-height: 2;
+}
+
+.marketings{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit,  minmax(200px, 1fr));
+    text-align: center;
+    margin-top: 45px;
+}
+
+.marketings .marketing__item{
+    border-radius: 15px;
+    box-shadow: 0 15px 25px 5px lightgray;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.marketings .marketing__item:hover{
+    transform: translateY(30px);
+}
+
+.marketing__item i{
+    /* padding-top: 20px!important; */
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.marketing__item p{
+    padding: 10px 30px 20px 30px;
+}
+
+.marketing__item.yeuto i{
+    color: green;
+    border: 3px solid green;
+    padding: 20px;
+    transform: skew(-30deg);
+}
+
+.marketing__item.doituong i{
+    color: blue;
+    border: 3px solid blue;
+    padding: 20px;
+    /* transform: skew(-30deg); */
+}
+.marketing__item.canlam i{
+    color: orange;
+    border: 3px solid orange;
+    padding: 20px;
+    transform: skew(30deg);
+}
